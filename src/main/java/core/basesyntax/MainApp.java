@@ -11,12 +11,9 @@ public class MainApp {
 
         for (Machine machine : machines) {
             machine.doWork();
-        }
-        System.out.println();
-
-        for (Machine machine : machines) {
             machine.stopWork();
         }
+        System.out.println();
     }
 
 }
